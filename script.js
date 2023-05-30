@@ -22,8 +22,7 @@ function addToCounter(x) {
     } else {
       counter_elt.style.color = 'green';
       plus_button.style.background = 'rgb(50, 245, 2)';
-      minus_button.style.background =
-        'linear-gradient(45deg, rgba(9, 221, 203, 0.877) 2.43%, rgba(167, 162, 118, 0.5) 100%)';
+      minus_button.style.background = regular_bg_color;
     }
   }
 }
