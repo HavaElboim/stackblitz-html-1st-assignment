@@ -10,7 +10,8 @@ function addToCounter(x) {
     warning_elt.innerHTML = '';
     counter = counter += x;
 
-    // show nothing if count does not have a value
     counter_elt.innerHTML = counter;
+    if (x === -1) counter_elt.style.color = 'red';
+    else counter_elt.style.color = 'green';
   }
 }
