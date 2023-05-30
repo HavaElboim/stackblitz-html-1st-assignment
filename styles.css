@@ -32,7 +32,6 @@ body {
 
 button {
   color: rgb(13, 10, 56);
-  background-color: blue;
   background: linear-gradient(
     45deg,
     rgba(9, 221, 203, 0.877) 2.43%,
@@ -64,12 +63,12 @@ button:hover {
   margin-top: 5px;
 }
 
-.plus {
+#plus {
   color: green;
 }
 
-.minus {
-  color: red;
+#minus {
+  color: rgb(107, 2, 2);
 }
 
 .logo {
