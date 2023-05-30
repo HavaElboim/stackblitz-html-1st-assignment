@@ -48,6 +48,10 @@ button {
   margin: 1%;
 }
 
+button:hover {
+  box-shadow: 0 0 11px rgb(38, 238, 228);
+}
+
 .text {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
